@@ -1,0 +1,51 @@
+CAPTION.CUSTOMTABLE
+  {
+     background-color:#8080ff;
+     color:white;
+     border-style:solid;
+     border-width:2px;
+     border-color:black;
+  }
+
+  TABLE.CUSTOMTABLE
+  { 
+     font-family:arial;
+     font-size:10pt;
+     background-color:#7A6E67;
+     width:575px;
+     border-style:double;
+     border-color:black;
+     border-width:2px;
+  }
+
+  TH.CUSTOMTABLE
+  {
+     font-size:10pt;
+     color:white;
+  }
+
+
+  TR.CUSTOMTABLE
+  { 
+  }
+
+  TD.CUSTOMTABLE
+  {  
+     font-size:10pt;
+     background-color:#2D6CC0;
+     color:white;
+     border-style:solid;
+     border-width:1px;
+     text-align:left;
+	 border-color:#000000;
+	 padding: 0 5px;
+  }
+  
+  TD.PUBLICATIONTABLE
+  {  
+     font-size:10pt;
+     background-color:#FFFFFF;
+     color:black;
+     text-align:justify;
+	 padding: 0 5px;
+  }
