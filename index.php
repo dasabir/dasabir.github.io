@@ -1,0 +1,71 @@
+<?php
+$title = "Abir Das @ UCR";
+require_once("include/Menubar.tpl.php");
+require_once("include/header.tpl.php");
+// main content html start
+?>
+
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Liberty
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20110810
+
+-->
+
+<body>
+	<div id="page">
+		<div id="content">
+			<div class="post">
+				<br>
+				<br>
+				<h1 class="title">Welcome to my webpage </h1>
+				<font color="black">
+				<br>
+				<br>
+				<div class="entry">
+					<p>Hi, I'm Abir Das. I am a PhD student in the <a href="http://www.ee.ucr.edu/" target="_blank">Electrical Engineering</a> department of the&nbsp;<a href="http://www.ucr.edu/"target="_blank">University of California at&nbsp;Riverside</a> (UCR). My research interest lies in understanding the theory and mechanism of re-identfying a large number of people over a network of cameras with non-overlapping Fields-of-view (FOVs). Especially, I have explored what role transformation of features, consistency of re-identfication and efficient involvement of human in the process, play towards a scalable and improved person re-identification. Please visit the <a href="research.php" target="_blank">'Research'</a> page of this website to go over the research problems that I have explored during my PhD years. My research advisor is <a href="http://www.ee.ucr.edu/~amitrc/index.php" target="_blank">Dr. Amit Kumar Roy-Chowdhury</a> and I'm attached to the <a href="http://www.ee.ucr.edu/~amitrc/VisualComputingGroup.php" target="_blank">'Video Computing Group'</a> led by him. Before joinging UCR, I have done my Bachelor of Electrical Engineering from <a href="http://www.jaduniv.edu.in/" target="_blank">Jadavpur University</a>, Calcutta, INDIA in the year 2007. Then I have worked for 3&nbsp; years with <a href="http://www.pwcglobal.com/in/eng/main/home/index.html" target="_blank">PricewaterhouseCoopers Pvt Ltd</a> (India) as a software consultant.
+					</p>
+					<p>I was born and brought up in <a href="http://en.wikipedia.org/wiki/Kirnahar" rel="nofollow" target="_blank">Kirnahar</a>, in the district of <a href="http://en.wikipedia.org/wiki/Birbhum_district" rel="nofollow" target="_blank">Birbhum</a> (Known as the "The land of red soil") of the State of west Bengal, India. Mother nature has left no stones unturned to make this little village a place of beauty. Lush green fields nurtured by the farmers cohabit peacefully with the rough and tough red soil of this region. And most importantly, the inhabitants of this place - they just make this pastoral picturesque picture perfect!!<br>
+<br>
+My Mom and Dad still live here. My elder brother and me go to this place whenever we can take some time off from the workplace. My elder brother is a Lecturer of Physics in <a href="http://www.apcrgc.org/" target="_blank"> Siliguri Government College</a>, India.</p>
+				</div>
+			</div>		 
+		</div>	
+		<!-- end #content -->
+		
+		<!-- start sliding images -->
+		<?php require_once("include/slidingimages.tpl.php"); ?>
+		<div style="clear: both;">&nbsp;</div>
+		<!-- end sliding images -->
+	</div>
+	<!-- end #page -->
+	<?php require_once("include/footer.tpl.php"); ?>
+	<!-- end #footer -->
+	
+	<!-- Start of StatCounter Code for Default Guide -->
+	<script type="text/javascript">
+	var sc_project=10156646; 
+	var sc_invisible=1; 
+	var sc_security="1f97b15c"; 
+	var scJsHost = (("https:" == document.location.protocol) ?
+	"https://secure." : "http://www.");
+	document.write("<sc"+"ript type='text/javascript' src='" +
+	scJsHost+
+	"statcounter.com/counter/counter.js'></"+"script>");
+	</script>
+	<noscript><div class="statcounter"><a title="shopify visitor
+	statistics" href="http://statcounter.com/shopify/"
+	target="_blank"><img class="statcounter"
+	src="http://c.statcounter.com/10156646/0/1f97b15c/1/"
+	alt="shopify visitor statistics"></a></div></noscript>
+	<!-- End of StatCounter Code for Default Guide -->
+</body>
+
+
+<!-- </body> 
+</html> -->
